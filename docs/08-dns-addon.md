@@ -20,7 +20,7 @@ kubectl --namespace=kube-system get svc
 ```
 ```
 NAME       CLUSTER-IP   EXTERNAL-IP   PORT(S)         AGE
-kube-dns   10.32.0.10   <none>        53/UDP,53/TCP   5s
+kube-dns   10.31.0.10   <none>        53/UDP,53/TCP   5s
 ```
 
 ### Create the `kubedns` deployment:
